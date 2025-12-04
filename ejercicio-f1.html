@@ -6,6 +6,33 @@
   <title>Ejercicio F1</title>
 </head>
 <body>
-  
+  <h1>Datos de cliente</h1>
+  <form action="datos.html" method="get">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+    <p></p>
+    <label for="nif">NIF</label>
+    <input type="text" name="nif" id="nif">
+    <br>
+    <p>Tipo de habitación:</p>
+    <input type="radio" name="tipo" id="ind" value="I">
+    <label for="ind">Individual</label>
+    <br>
+    <input type="radio" name="tipo" id="dob" value="D">
+    <label for="dob">Doble</label>
+    <p></p>
+    <p>Opciones:</p>
+    <input type="checkbox" name="desayuno" id="desayuno" value="desayuno">
+    <label for="desayuno">Desayuno en la habitación</label>
+    <br>
+    <input type="checkbox" name="jacuzzi" id="jacuzzi" value="jacuzzi">
+    <label for="jacuzzi">Jacuzzi</label>
+    <br>
+    <input type="checkbox" name="wifi" id="wifi" value="wifi">
+    <label for="wifi">Wifi</label>
+    <p></p>
+    <input type="submit" name="enviar" value="Enviar">
+    <input type="reset" name="borrar" value="Borrar">
+  </form>
 </body>
 </html>
